@@ -2,5 +2,42 @@
 
 :root{
     --bg-color: #151515;
-    --primari: #1c1a49;
+    --primari: #491c1a;
+    --secondary: #f05454;
+    --font:"Nnito Sans", sans-serif;
+
+}  
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-family: var(--font);
+    height: 100vh;
+    margin: 0;
+}
+
+header{
+    background-color: var(--primary-color);
+    text-align: center;  
+}
+
+h1{
+    font-size: 2rem;
+    color: var(--bg-color);
+    font-weight: 700;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+nav a{
+    text-decoration: none;
+    columns: var(--bg-color);
+    margin: 0 2rem 1rem 0;
+    font-size: 1.2rem;
+}
+nav a-houver{
+    text-decoration: underline;
+    height: 3rem;
+    margin-top: 2rem;
 }
